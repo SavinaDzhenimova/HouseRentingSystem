@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Build .dotnet project') {
+        stage('Build project') {
             steps {
                 bat 'dotnet build'
             }
